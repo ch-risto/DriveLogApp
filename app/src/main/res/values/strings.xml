@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Harjoitus2_4</string>
+    <string name="logbook">Logbook</string>
+    <string name="choose_activity">Choose Activity</string>
+    <string name="reports">Reports</string>
+    <string name="add_drive">Add drive</string>
+    <string name="settings">Settings</string>
+    <string name="company_information">Company information</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_drive">Register Drive</string>
+    <string name="back">Back</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="date">Date</string>
+    <string name="kilometers">Kilometers</string>
+    <string name="save">Save</string>
+    <string name="choose">Choose</string>
+    <string name="drive_saved_as">Drive saved as:</string>
+    <string name="return_main_menu">Return main menu</string>
+
+    <string-array name="company_cars">
+        <item>BMW-123</item>
+        <item>AUD-321</item>
+        <item>VLV-456</item>
+        <item>SKD-654</item>
+        <item>VWG-789</item>
+        <item>TSL-987</item>
+    </string-array>
+</resources>

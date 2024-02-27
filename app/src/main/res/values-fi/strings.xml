@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Harjoitus2_4</string>
+    <string name="logbook">Ajopäiväkirja</string>
+    <string name="choose_activity">Valitse toiminto</string>
+    <string name="reports">Raportit</string>
+    <string name="add_drive">Lisää ajo</string>
+    <string name="settings">Asetukset</string>
+    <string name="company_information">Yritystiedot</string>
+    <string name="register_drive">Ajokirjaus</string>
+    <string name="back">Takaisin</string>
+    <string name="vehicle">Ajoneuvo</string>
+    <string name="date">Päivämäärä</string>
+    <string name="kilometers">Kilometrit</string>
+    <string name="save">Tallenna</string>
+    <string name="choose">Valitse</string>
+    <string name="drive_saved_as">Ajo tallennettu seuraavilla tiedoilla:</string>
+    <string name="return_main_menu">Takaisn päävalikkoon</string>
+</resources>

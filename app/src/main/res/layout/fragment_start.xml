@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".StartFragment" >
+
+        <TextView
+            android:id="@+id/logBook"
+            style="@style/HeaderStyle"
+            android:text="@string/logbook"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/SubHeaderStyle"
+            android:layout_marginTop="95dp"
+            android:text="@string/choose_activity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logBook" />
+
+        <Button
+            android:id="@+id/reportsButton"
+            style="@style/ButtonStyle"
+            android:layout_marginTop="236dp"
+            android:text="@string/reports"
+            app:layout_constraintEnd_toStartOf="@+id/addButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/addButton"
+            style="@style/ButtonStyle"
+            android:text="@string/add_drive"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/reportsButton"
+            app:layout_constraintTop_toTopOf="@+id/reportsButton" />
+
+        <Button
+            android:id="@+id/settingsButton"
+            style="@style/ButtonStyleSettings"
+            android:layout_marginTop="56dp"
+            android:text="@string/settings"
+            app:layout_constraintEnd_toStartOf="@+id/informationButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reportsButton" />
+
+        <Button
+            android:id="@+id/informationButton"
+            style="@style/ButtonStyleInformation"
+            android:text="@string/company_information"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/settingsButton"
+            app:layout_constraintTop_toTopOf="@+id/settingsButton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
