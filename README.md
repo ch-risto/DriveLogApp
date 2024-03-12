@@ -20,5 +20,15 @@ Clicking "Save" displays a summary of entered details. Keep in mind that this is
 ### e) Back to Main Menu
 A convenient "Back to Main Menu" button lets users navigate back to the main screen effortlessly.
 
+### f) Language models
+Available in both English and Finnish.
+
+## Screenshots
+![image](https://github.com/ch-risto/DriveLogApp/assets/117929321/8f5e5757-2032-4579-ad3c-7138b7384fe1)
+![image](https://github.com/ch-risto/DriveLogApp/assets/117929321/05cf2fea-31f3-45c9-ac85-60c33d4dd85c)
+![image](https://github.com/ch-risto/DriveLogApp/assets/117929321/0fb5e2c3-5982-40f5-88d3-014e86b94c22)
+
+
+
 ## Usage
 Feel free to explore the app's UI, interact with buttons, and get a sense of how a complete driving log application might function. Keep in mind that this version lacks backend functionality, and no real data logging occurs. It's a learning tool crafted for educational purposes.
